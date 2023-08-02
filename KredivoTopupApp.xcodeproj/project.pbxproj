@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D011352A7A8FA5004D9CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011342A7A8FA5004D9CAF /* AppDelegate.swift */; };
+		63D011372A7A8FA5004D9CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011362A7A8FA5004D9CAF /* SceneDelegate.swift */; };
+		63D011392A7A8FA5004D9CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011382A7A8FA5004D9CAF /* ViewController.swift */; };
+		63D0113C2A7A8FA5004D9CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D0113A2A7A8FA5004D9CAF /* Main.storyboard */; };
+		63D0113E2A7A8FA6004D9CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D0113D2A7A8FA6004D9CAF /* Assets.xcassets */; };
+		63D011412A7A8FA6004D9CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D0113F2A7A8FA6004D9CAF /* LaunchScreen.storyboard */; };
+		63D0114C2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0114B2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift */; };
+		63D011562A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011552A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift */; };
+		63D011582A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011572A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D011482A7A8FA6004D9CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D011292A7A8FA5004D9CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D011302A7A8FA5004D9CAF;
+			remoteInfo = KredivoTopupApp;
+		};
+		63D011522A7A8FA6004D9CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D011292A7A8FA5004D9CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D011302A7A8FA5004D9CAF;
+			remoteInfo = KredivoTopupApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D011312A7A8FA5004D9CAF /* KredivoTopupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KredivoTopupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D011342A7A8FA5004D9CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D011362A7A8FA5004D9CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63D011382A7A8FA5004D9CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D0113B2A7A8FA5004D9CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D0113D2A7A8FA6004D9CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D011402A7A8FA6004D9CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D011422A7A8FA6004D9CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D011472A7A8FA6004D9CAF /* KredivoTopupAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KredivoTopupAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D0114B2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredivoTopupAppTests.swift; sourceTree = "<group>"; };
+		63D011512A7A8FA6004D9CAF /* KredivoTopupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KredivoTopupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D011552A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredivoTopupAppUITests.swift; sourceTree = "<group>"; };
+		63D011572A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredivoTopupAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D0112E2A7A8FA5004D9CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D011442A7A8FA6004D9CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D0114E2A7A8FA6004D9CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D011282A7A8FA5004D9CAF = {
+			isa = PBXGroup;
+			children = (
+				63D011332A7A8FA5004D9CAF /* KredivoTopupApp */,
+				63D0114A2A7A8FA6004D9CAF /* KredivoTopupAppTests */,
+				63D011542A7A8FA6004D9CAF /* KredivoTopupAppUITests */,
+				63D011322A7A8FA5004D9CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D011322A7A8FA5004D9CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D011312A7A8FA5004D9CAF /* KredivoTopupApp.app */,
+				63D011472A7A8FA6004D9CAF /* KredivoTopupAppTests.xctest */,
+				63D011512A7A8FA6004D9CAF /* KredivoTopupAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D011332A7A8FA5004D9CAF /* KredivoTopupApp */ = {
+			isa = PBXGroup;
+			children = (
+				63D011342A7A8FA5004D9CAF /* AppDelegate.swift */,
+				63D011362A7A8FA5004D9CAF /* SceneDelegate.swift */,
+				63D011382A7A8FA5004D9CAF /* ViewController.swift */,
+				63D0113A2A7A8FA5004D9CAF /* Main.storyboard */,
+				63D0113D2A7A8FA6004D9CAF /* Assets.xcassets */,
+				63D0113F2A7A8FA6004D9CAF /* LaunchScreen.storyboard */,
+				63D011422A7A8FA6004D9CAF /* Info.plist */,
+			);
+			path = KredivoTopupApp;
+			sourceTree = "<group>";
+		};
+		63D0114A2A7A8FA6004D9CAF /* KredivoTopupAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D0114B2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift */,
+			);
+			path = KredivoTopupAppTests;
+			sourceTree = "<group>";
+		};
+		63D011542A7A8FA6004D9CAF /* KredivoTopupAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63D011552A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift */,
+				63D011572A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift */,
+			);
+			path = KredivoTopupAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D011302A7A8FA5004D9CAF /* KredivoTopupApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D0115B2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupApp" */;
+			buildPhases = (
+				63D0112D2A7A8FA5004D9CAF /* Sources */,
+				63D0112E2A7A8FA5004D9CAF /* Frameworks */,
+				63D0112F2A7A8FA5004D9CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KredivoTopupApp;
+			productName = KredivoTopupApp;
+			productReference = 63D011312A7A8FA5004D9CAF /* KredivoTopupApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D011462A7A8FA6004D9CAF /* KredivoTopupAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D0115E2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppTests" */;
+			buildPhases = (
+				63D011432A7A8FA6004D9CAF /* Sources */,
+				63D011442A7A8FA6004D9CAF /* Frameworks */,
+				63D011452A7A8FA6004D9CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D011492A7A8FA6004D9CAF /* PBXTargetDependency */,
+			);
+			name = KredivoTopupAppTests;
+			productName = KredivoTopupAppTests;
+			productReference = 63D011472A7A8FA6004D9CAF /* KredivoTopupAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63D011502A7A8FA6004D9CAF /* KredivoTopupAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D011612A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppUITests" */;
+			buildPhases = (
+				63D0114D2A7A8FA6004D9CAF /* Sources */,
+				63D0114E2A7A8FA6004D9CAF /* Frameworks */,
+				63D0114F2A7A8FA6004D9CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D011532A7A8FA6004D9CAF /* PBXTargetDependency */,
+			);
+			name = KredivoTopupAppUITests;
+			productName = KredivoTopupAppUITests;
+			productReference = 63D011512A7A8FA6004D9CAF /* KredivoTopupAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D011292A7A8FA5004D9CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63D011302A7A8FA5004D9CAF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					63D011462A7A8FA6004D9CAF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63D011302A7A8FA5004D9CAF;
+					};
+					63D011502A7A8FA6004D9CAF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63D011302A7A8FA5004D9CAF;
+					};
+				};
+			};
+			buildConfigurationList = 63D0112C2A7A8FA5004D9CAF /* Build configuration list for PBXProject "KredivoTopupApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D011282A7A8FA5004D9CAF;
+			productRefGroup = 63D011322A7A8FA5004D9CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D011302A7A8FA5004D9CAF /* KredivoTopupApp */,
+				63D011462A7A8FA6004D9CAF /* KredivoTopupAppTests */,
+				63D011502A7A8FA6004D9CAF /* KredivoTopupAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D0112F2A7A8FA5004D9CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D011412A7A8FA6004D9CAF /* LaunchScreen.storyboard in Resources */,
+				63D0113E2A7A8FA6004D9CAF /* Assets.xcassets in Resources */,
+				63D0113C2A7A8FA5004D9CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D011452A7A8FA6004D9CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D0114F2A7A8FA6004D9CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D0112D2A7A8FA5004D9CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D011392A7A8FA5004D9CAF /* ViewController.swift in Sources */,
+				63D011352A7A8FA5004D9CAF /* AppDelegate.swift in Sources */,
+				63D011372A7A8FA5004D9CAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D011432A7A8FA6004D9CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D0114C2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D0114D2A7A8FA6004D9CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D011582A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift in Sources */,
+				63D011562A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D011492A7A8FA6004D9CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D011302A7A8FA5004D9CAF /* KredivoTopupApp */;
+			targetProxy = 63D011482A7A8FA6004D9CAF /* PBXContainerItemProxy */;
+		};
+		63D011532A7A8FA6004D9CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D011302A7A8FA5004D9CAF /* KredivoTopupApp */;
+			targetProxy = 63D011522A7A8FA6004D9CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D0113A2A7A8FA5004D9CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0113B2A7A8FA5004D9CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D0113F2A7A8FA6004D9CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D011402A7A8FA6004D9CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D011592A7A8FA6004D9CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D0115A2A7A8FA6004D9CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D0115C2A7A8FA6004D9CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KredivoTopupApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63D0115D2A7A8FA6004D9CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KredivoTopupApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		63D0115F2A7A8FA6004D9CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KredivoTopupApp.app/KredivoTopupApp";
+			};
+			name = Debug;
+		};
+		63D011602A7A8FA6004D9CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KredivoTopupApp.app/KredivoTopupApp";
+			};
+			name = Release;
+		};
+		63D011622A7A8FA6004D9CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KredivoTopupApp;
+			};
+			name = Debug;
+		};
+		63D011632A7A8FA6004D9CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholausadi.KredivoTopupAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KredivoTopupApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D0112C2A7A8FA5004D9CAF /* Build configuration list for PBXProject "KredivoTopupApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D011592A7A8FA6004D9CAF /* Debug */,
+				63D0115A2A7A8FA6004D9CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D0115B2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D0115C2A7A8FA6004D9CAF /* Debug */,
+				63D0115D2A7A8FA6004D9CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D0115E2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D0115F2A7A8FA6004D9CAF /* Debug */,
+				63D011602A7A8FA6004D9CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D011612A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D011622A7A8FA6004D9CAF /* Debug */,
+				63D011632A7A8FA6004D9CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D011292A7A8FA5004D9CAF /* Project object */;
+}
