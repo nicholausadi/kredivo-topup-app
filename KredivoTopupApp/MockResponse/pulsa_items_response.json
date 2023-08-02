@@ -1,0 +1,52 @@
+{
+    "status": "OK",
+    "message": "OK",
+    "products": [
+        {
+            "product_code": "Fw22lyO0",
+            "bill_type": "mobile",
+            "label": "XL Rp 10.000",
+            "operator": "xl",
+            "nominal": "10000",
+            "description": "",
+            "sequence": 1,
+            "price": 12735.0
+        },
+        {
+            "product_code": "Oq0ckhPY",
+            "bill_type": "mobile",
+            "label": "XL 15,000",
+            "operator": "xl",
+            "nominal": "15000",
+            "description": "",
+            "price": 16000.0
+        },
+        {
+            "product_code": "Oq0ckhPY",
+            "bill_type": "mobile",
+            "label": "XL 25,000",
+            "operator": "xl",
+            "nominal": "25000",
+            "description": "",
+            "price": 16000.0
+        },
+        {
+            "product_code": "Oq0ckhPY",
+            "bill_type": "mobile",
+            "label": "XL 50,000",
+            "operator": "xl",
+            "nominal": "50000",
+            "description": "",
+            "price": 16000.0
+        },
+        {
+            "product_code": "Oq0ckhPY",
+            "bill_type": "mobile",
+            "label": "XL 100,000",
+            "operator": "xl",
+            "nominal": "100000",
+            "description": "",
+            "price": 16000.0
+        }
+    ]
+}

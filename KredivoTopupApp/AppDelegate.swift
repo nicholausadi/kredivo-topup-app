@@ -6,14 +6,53 @@
 //
 
 import UIKit
+import OHHTTPStubs
+import OHHTTPStubsSwift
+
+// TODO: 1. Add promos items collection view
+// TODO: 2. Add transaction collection view
+// TODO: 3. Add home collection view
+
+// Less priority:
+// TODO: Remove all deinit
+// TODO: VoucherDetail - arrow left kurang gede
+// TODO: PaymentState - close kurang gede
+// TODO: PaymentState - telkomsel kurang kecil
+// TODO: PaymentState - Add failed state
+// TODO: PaymentState - Add spinner in loading state
+// TODO: Add transition in kingfisher
+// TODO: Add network manager?
+// TODO: Add string localized
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Stub API response
+        #if DEBUG
+        
+        // Stub response pulsa items.
+        stub(condition: pathEndsWith("/pulsa/items")) { _ in
+            let stubPath = OHPathForFile("pulsa_items_response.json", type(of: self))
+            return fixture(filePath: stubPath!, status: 200, headers: ["Content-Type": "application/json"])
+        }
+        
+        // Stub response voucher items.
+        stub(condition: pathEndsWith("/promo/items")) { _ in
+            let stubPath = OHPathForFile("voucher_items_response.json", type(of: self))
+            return fixture(filePath: stubPath!, status: 200, headers: ["Content-Type": "application/json"])
+        }
+        
+        // Stub response payment status page.
+        stub(condition: pathEndsWith("/payment/status")) { _ in
+            let stubPath = OHPathForFile("status_page_response.json", type(of: self))
+            return fixture(filePath: stubPath!, status: 200, headers: ["Content-Type": "application/json"])
+        }
+        
+        #endif
+        
         return true
     }
 
