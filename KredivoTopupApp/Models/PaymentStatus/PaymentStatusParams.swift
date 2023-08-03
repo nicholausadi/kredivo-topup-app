@@ -9,5 +9,4 @@ import Foundation
 
 struct PaymentStatusParams: Encodable {
     let phoneNumber: String
-    let voucherCode: String?
 }

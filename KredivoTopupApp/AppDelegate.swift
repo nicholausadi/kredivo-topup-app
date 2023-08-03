@@ -9,8 +9,7 @@ import UIKit
 import OHHTTPStubs
 import OHHTTPStubsSwift
 
-// TODO: 1. Add transaction collection view
-// TODO: 2. Add home collection view
+// TODO: 1. Add home collection view
 //
 // Less priority:
 // TODO: Remove all deinit
@@ -20,18 +19,8 @@ import OHHTTPStubsSwift
 // TODO: PaymentState - close kurang gede
 // TODO: PaymentState - telkomsel kurang kecil
 //
-// TODO: VoucherList - Add failed state
-// TODO: VoucherList - Add spinner in loading state
-// TODO: VoucherList - need dynamic height?
-// TODO: VoucherList - Send voucher code to previous screen.
-//
-// TODO: PaymentState - Add failed state
-// TODO: PaymentState - Add spinner in loading state
-//
-// TODO: Add transition in kingfisher
 // TODO: Add network manager?
 // TODO: Add api failed handling?
-// TODO: Add string localized
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

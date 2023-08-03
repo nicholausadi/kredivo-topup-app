@@ -30,7 +30,7 @@
             "usage_count": 2,
             "start_date": "1680282000",
             "max_discount": 20000,
-            "voucher_code": "ACBDED88"
+            "voucher_code": "VOUCHERPROMO"
         },
         {
             "name": "VOUCHERZEROPERCENT",
@@ -46,7 +46,7 @@
             "usage_count": 0,
             "start_date": "1680195600",
             "max_discount": 0,
-            "voucher_code": "ACBDED89"
+            "voucher_code": "VOUCHERZEROPERCENT"
         }
     ],
     "status": "OK"

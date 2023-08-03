@@ -1,0 +1,6 @@
+framework module Pods_KredivoTopupApp {
+  umbrella header "Pods-KredivoTopupApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -40,8 +40,7 @@ class PaymentStatusViewController: UIViewController {
     private var cancellable: AnyCancellable?
     
     // Param
-    var phoneNumber: String = ""
-    var voucherCode: String = ""
+    var phoneNumber: String = "0812 3400 0001"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +61,7 @@ class PaymentStatusViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         // Fetch API payment status.
-        let param = PaymentStatusParams(phoneNumber: phoneNumber, voucherCode: voucherCode)
+        let param = PaymentStatusParams(phoneNumber: phoneNumber)
         viewModel.fetchPaymentStatus(param: param)
     }
     
@@ -92,7 +91,7 @@ class PaymentStatusViewController: UIViewController {
             showHideView(isHidden: false)
             
             // Show image operator
-            imageOperator.image = Asset.Image.telkomsel.image
+            imageOperator.image = Asset.Logo.telkomsel.image
             imageOperator.rounded()
             
             lblStatus.text = trx.transactionStatus.string()
@@ -159,7 +158,6 @@ class PaymentStatusViewController: UIViewController {
     
     private func addPaymentBreakdown(list: [TransactionItem], amount: String, type: AppliedPaymentTypeEnum) {
         if list.isEmpty { return }
-        
         
         for (index, item) in list.enumerated() {
             let stackView = createStackBreakdown(name: item.name, amount: item.totalAmount, isFirst: index == 0)
