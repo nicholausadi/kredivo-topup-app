@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "name": "Discount 20% at Kedai Hape Original, Mall Kota Kasablanka",
+            "number": 4,
+            "percentage": 10,
+            "iterator": 0,
+            "image_url": "https://placehold.co/1000x400/239CEC/FFFFFF/png",
+            "min_transaction_amount": 50000,
+            "end_date": "1548867600000",
+            "id": 4111,
+            "terms_and_condition": "• Promo berlaku untuk transaksi yang dilakukan diaplikasi terbaru Bukalapak.\n• Gunakan kode BIRTHDAY9 untuk dapatkan cashback sebesar 3%.\n• Promo hanya berlaku untuk transaksi yang menggunakan metode pengiriman J&T Express dan Ninja Xpress (REG dan FAST).\n• Setiap pengguna bisa menggunakan promo sebanyak 1 (satu) kali per hari dan maksimal 2 (dua) kali selama periode Promo.\n• Promo bisa digunakan untuk belanja produk kategori apa saja yang ada di Bukalapak, kecuali kategori tiket dan voucher, produk virtual (pulsa, paket data, voucher game, listrik prabayar & pascabayar, tiket event, tiket pesawat, tiket kereta, pembayaran zakat online, pembayaran tagihan listrik, air PDAM, dan BPJS) dan produk keuangan (BukaEmas dan BukaReksa).",
+            "how_to_use": "text",
+            "usage_count": 2,
+            "start_date": "1547053200000",
+            "max_discount": 20000,
+            "voucher_code": "BIRTHDAY9"
+        },
+        {
+            "name": "VOUCHERPROMO",
+            "number": 4,
+            "percentage": 10,
+            "iterator": 0,
+            "image_url": "https://placehold.co/1000x400/239CEC/FFFFFF/png",
+            "min_transaction_amount": 50000,
+            "end_date": "1682787599",
+            "id": 4111,
+            "terms_and_condition": "text",
+            "how_to_use": "text",
+            "usage_count": 2,
+            "start_date": "1680282000",
+            "max_discount": 20000,
+            "voucher_code": "ACBDED88"
+        },
+        {
+            "name": "VOUCHERZEROPERCENT",
+            "number": 4,
+            "percentage": 0,
+            "iterator": 1,
+            "image_url": "https://placehold.co/1000x400/239CEC/FFFFFF/png",
+            "min_transaction_amount": 0,
+            "end_date": "1682096399",
+            "id": 4112,
+            "terms_and_condition": "text",
+            "how_to_use": "text",
+            "usage_count": 0,
+            "start_date": "1680195600",
+            "max_discount": 0,
+            "voucher_code": "ACBDED89"
+        }
+    ],
+    "status": "OK"
+}
