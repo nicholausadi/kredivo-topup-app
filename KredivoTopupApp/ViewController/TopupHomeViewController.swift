@@ -30,7 +30,17 @@ class TopupHomeViewController: UIViewController {
     
     // TODO: Remove this!
     @IBAction func onClickedTransaction(_ sender: Any) {
-        goToTransaction()
+        let pulsa = PulsaItem(
+            productCode: "Fw22lyO0",
+            billType: "mobile",
+            label: "XL Rp 10.000",
+            phoneOperator: "xl",
+            nominal: "10000",
+            desc: "",
+            sequence: 1,
+            price: 12735.0)
+        
+        goToTransaction(product: pulsa)
     }
     
     // TODO: Remove this!
@@ -55,8 +65,11 @@ class TopupHomeViewController: UIViewController {
     }
     
     // Go to Transaction
-    func goToTransaction() {
+    func goToTransaction(product: PulsaItem) {
         guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: TransactionViewController.identifier) as? TransactionViewController else { return }
+        vc.phoneNumber = "0812 3400 0001"
+        vc.product = product
+        
         navigationController?.pushViewController(vc, animated: true)
     }
     

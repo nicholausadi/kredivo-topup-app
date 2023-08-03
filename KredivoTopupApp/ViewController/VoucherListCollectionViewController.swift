@@ -17,6 +17,8 @@ class VoucherListCollectionViewController: UICollectionViewController {
     private var cancellable: AnyCancellable?
     
     var vouchers: [VoucherItem] = []
+    weak var delegate: TransactionVoucherDelegate?
+    
     let contentInset = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
 
     override func viewDidLoad() {
@@ -123,7 +125,7 @@ extension VoucherListCollectionViewController: UICollectionViewDelegateFlowLayou
 extension VoucherListCollectionViewController: VoucherItemCellDelegate {
     
     func onClickedApply(voucherCode: String) {
-        // TODO: Send voucher code to previous screen.
+        delegate?.applyVoucher(voucherCode: voucherCode)
         navigationController?.popViewController(animated: true)
     }
     

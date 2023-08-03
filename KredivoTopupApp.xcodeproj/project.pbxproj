@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6311CFF52A7C04CE00B89B93 /* Extension+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311CFF42A7C04CE00B89B93 /* Extension+UIStackView.swift */; };
 		6331E47C2A7AF08900EF230F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6331E47B2A7AF08900EF230F /* Kingfisher */; };
 		6331E47E2A7AF1ED00EF230F /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6331E47D2A7AF1ED00EF230F /* Extension+Date.swift */; };
 		6331E4812A7AF3D700EF230F /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6331E4802A7AF3D700EF230F /* ViewUtils.swift */; };
@@ -14,6 +15,7 @@
 		6358CB2A2A7AA51F00847C00 /* status_page_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6358CB272A7AA51F00847C00 /* status_page_response.json */; };
 		6358CB2B2A7AA51F00847C00 /* voucher_items_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6358CB282A7AA51F00847C00 /* voucher_items_response.json */; };
 		6358CB2C2A7AA51F00847C00 /* pulsa_items_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6358CB292A7AA51F00847C00 /* pulsa_items_response.json */; };
+		6359B2F72A7C0C460096E72C /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359B2F62A7C0C460096E72C /* Extension+Double.swift */; };
 		63A953EF2A7AAAEE00D0BBFF /* PulsaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A953EE2A7AAAEE00D0BBFF /* PulsaItem.swift */; };
 		63A953F12A7AAAF500D0BBFF /* VoucherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A953F02A7AAAF500D0BBFF /* VoucherItem.swift */; };
 		63A953F42A7AAB4900D0BBFF /* CodableWrappers in Frameworks */ = {isa = PBXBuildFile; productRef = 63A953F32A7AAB4900D0BBFF /* CodableWrappers */; };
@@ -44,6 +46,9 @@
 		63D011842A7A9C73004D9CAF /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */; };
 		63D011872A7AA3EA004D9CAF /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011862A7AA3EA004D9CAF /* OHHTTPStubs */; };
 		63D011892A7AA3EA004D9CAF /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011882A7AA3EA004D9CAF /* OHHTTPStubsSwift */; };
+		68F1E3F596A4DB2D61A961D2 /* Pods_KredivoTopupApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89C452E665E0355C6CC00F /* Pods_KredivoTopupApp.framework */; };
+		88E84BE136BEBE49817FFB59 /* Pods_KredivoTopupAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92FEE4D15549D81B420E4DE /* Pods_KredivoTopupAppTests.framework */; };
+		C63A077C7470C4894210975B /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E6A4EA20CC0A125FD3C654 /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework */; };
 		FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */; };
 		FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */; };
 		FA329A522A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A502A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift */; };
@@ -74,12 +79,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3C662DE8B2B7FB76E91A13 /* Pods-KredivoTopupAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupAppTests.release.xcconfig"; path = "Target Support Files/Pods-KredivoTopupAppTests/Pods-KredivoTopupAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		187F9968DDBD73AE6BF39409 /* Pods-KredivoTopupAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KredivoTopupAppTests/Pods-KredivoTopupAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E6A4EA20CC0A125FD3C654 /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KredivoTopupApp_KredivoTopupAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526AB8A20A8CA2946B6DDF22 /* Pods-KredivoTopupApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp.debug.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp/Pods-KredivoTopupApp.debug.xcconfig"; sourceTree = "<group>"; };
+		59049782A46CDF3D833B160F /* Pods-KredivoTopupApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp.release.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp/Pods-KredivoTopupApp.release.xcconfig"; sourceTree = "<group>"; };
+		6311CFF42A7C04CE00B89B93 /* Extension+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIStackView.swift"; sourceTree = "<group>"; };
 		6331E47D2A7AF1ED00EF230F /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		6331E4802A7AF3D700EF230F /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
 		6331E4822A7B135800EF230F /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		6358CB272A7AA51F00847C00 /* status_page_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = status_page_response.json; sourceTree = "<group>"; };
 		6358CB282A7AA51F00847C00 /* voucher_items_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = voucher_items_response.json; sourceTree = "<group>"; };
 		6358CB292A7AA51F00847C00 /* pulsa_items_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pulsa_items_response.json; sourceTree = "<group>"; };
+		6359B2F62A7C0C460096E72C /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
 		63A953EE2A7AAAEE00D0BBFF /* PulsaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaItem.swift; sourceTree = "<group>"; };
 		63A953F02A7AAAF500D0BBFF /* VoucherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItem.swift; sourceTree = "<group>"; };
 		63A953F52A7AAF7200D0BBFF /* PulsaItemsResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaItemsResp.swift; sourceTree = "<group>"; };
@@ -110,6 +122,10 @@
 		63D0117C2A7A9770004D9CAF /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 		63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupViewModel.swift; sourceTree = "<group>"; };
 		63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		81B460443C37CBBBE8444B92 /* Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83A681BF2031CB2D816343EC /* Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C92FEE4D15549D81B420E4DE /* Pods_KredivoTopupAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KredivoTopupAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB89C452E665E0355C6CC00F /* Pods_KredivoTopupApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KredivoTopupApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewModel.swift; sourceTree = "<group>"; };
 		FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListCollectionViewController.swift; sourceTree = "<group>"; };
 		FA329A502A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItemCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -132,6 +148,7 @@
 				63A953F42A7AAB4900D0BBFF /* CodableWrappers in Frameworks */,
 				6331E47C2A7AF08900EF230F /* Kingfisher in Frameworks */,
 				FA34468D2A7BB0350001F8AF /* TinyConstraints in Frameworks */,
+				68F1E3F596A4DB2D61A961D2 /* Pods_KredivoTopupApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E84BE136BEBE49817FFB59 /* Pods_KredivoTopupAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +164,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63A077C7470C4894210975B /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C611D247A79AF47D527585A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				526AB8A20A8CA2946B6DDF22 /* Pods-KredivoTopupApp.debug.xcconfig */,
+				59049782A46CDF3D833B160F /* Pods-KredivoTopupApp.release.xcconfig */,
+				83A681BF2031CB2D816343EC /* Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig */,
+				81B460443C37CBBBE8444B92 /* Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig */,
+				187F9968DDBD73AE6BF39409 /* Pods-KredivoTopupAppTests.debug.xcconfig */,
+				0B3C662DE8B2B7FB76E91A13 /* Pods-KredivoTopupAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		43A3CF08E0724913E2E8D1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB89C452E665E0355C6CC00F /* Pods_KredivoTopupApp.framework */,
+				34E6A4EA20CC0A125FD3C654 /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework */,
+				C92FEE4D15549D81B420E4DE /* Pods_KredivoTopupAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6331E47F2A7AF3C500EF230F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +259,8 @@
 				63D0114A2A7A8FA6004D9CAF /* KredivoTopupAppTests */,
 				63D011542A7A8FA6004D9CAF /* KredivoTopupAppUITests */,
 				63D011322A7A8FA5004D9CAF /* Products */,
+				0C611D247A79AF47D527585A /* Pods */,
+				43A3CF08E0724913E2E8D1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -333,6 +378,8 @@
 				6331E47D2A7AF1ED00EF230F /* Extension+Date.swift */,
 				FA3446842A7BA11D0001F8AF /* Extension+Decodable.swift */,
 				FA3446862A7BA4360001F8AF /* Extension+UIImageView.swift */,
+				6311CFF42A7C04CE00B89B93 /* Extension+UIStackView.swift */,
+				6359B2F62A7C0C460096E72C /* Extension+Double.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -362,10 +409,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D0115B2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupApp" */;
 			buildPhases = (
+				5BC18083A3351D30177C5342 /* [CP] Check Pods Manifest.lock */,
 				63D011762A7A93AF004D9CAF /* SwiftGen */,
 				63D0112D2A7A8FA5004D9CAF /* Sources */,
 				63D0112E2A7A8FA5004D9CAF /* Frameworks */,
 				63D0112F2A7A8FA5004D9CAF /* Resources */,
+				D93974DA58981F5B22938CAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -388,6 +437,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D0115E2A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppTests" */;
 			buildPhases = (
+				3FB11026759DEB6D432E83B5 /* [CP] Check Pods Manifest.lock */,
 				63D011432A7A8FA6004D9CAF /* Sources */,
 				63D011442A7A8FA6004D9CAF /* Frameworks */,
 				63D011452A7A8FA6004D9CAF /* Resources */,
@@ -406,9 +456,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D011612A7A8FA6004D9CAF /* Build configuration list for PBXNativeTarget "KredivoTopupAppUITests" */;
 			buildPhases = (
+				89D7A37F8BD5A4A6227F936E /* [CP] Check Pods Manifest.lock */,
 				63D0114D2A7A8FA6004D9CAF /* Sources */,
 				63D0114E2A7A8FA6004D9CAF /* Frameworks */,
 				63D0114F2A7A8FA6004D9CAF /* Resources */,
+				B122AB86F301C8EA3BA13DA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -453,11 +505,11 @@
 			);
 			mainGroup = 63D011282A7A8FA5004D9CAF;
 			packageReferences = (
-				63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
-				63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */,
-				63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */,
-				6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */,
+				63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */,
+				63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
 			);
 			productRefGroup = 63D011322A7A8FA5004D9CAF /* Products */;
 			projectDirPath = "";
@@ -502,6 +554,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3FB11026759DEB6D432E83B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KredivoTopupAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC18083A3351D30177C5342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KredivoTopupApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		63D011762A7A93AF004D9CAF /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,6 +615,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PROJECT_DIR}/swiftgen/bin/swiftgen\"\n";
+		};
+		89D7A37F8BD5A4A6227F936E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KredivoTopupApp-KredivoTopupAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B122AB86F301C8EA3BA13DA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93974DA58981F5B22938CAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp/Pods-KredivoTopupApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp/Pods-KredivoTopupApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KredivoTopupApp/Pods-KredivoTopupApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -539,7 +691,9 @@
 				63D0116F2A7A92BC004D9CAF /* TransactionViewController.swift in Sources */,
 				63D011842A7A9C73004D9CAF /* Extension+ViewController.swift in Sources */,
 				6331E4832A7B135800EF230F /* PaddingLabel.swift in Sources */,
+				6359B2F72A7C0C460096E72C /* Extension+Double.swift in Sources */,
 				FA34467D2A7B87FF0001F8AF /* PaymentStatusViewModel.swift in Sources */,
+				6311CFF52A7C04CE00B89B93 /* Extension+UIStackView.swift in Sources */,
 				FA3446852A7BA11D0001F8AF /* Extension+Decodable.swift in Sources */,
 				FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */,
 				FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */,
@@ -729,6 +883,7 @@
 		};
 		63D0115C2A7A8FA6004D9CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526AB8A20A8CA2946B6DDF22 /* Pods-KredivoTopupApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -758,6 +913,7 @@
 		};
 		63D0115D2A7A8FA6004D9CAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59049782A46CDF3D833B160F /* Pods-KredivoTopupApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -787,6 +943,7 @@
 		};
 		63D0115F2A7A8FA6004D9CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187F9968DDBD73AE6BF39409 /* Pods-KredivoTopupAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -806,6 +963,7 @@
 		};
 		63D011602A7A8FA6004D9CAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3C662DE8B2B7FB76E91A13 /* Pods-KredivoTopupAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -825,6 +983,7 @@
 		};
 		63D011622A7A8FA6004D9CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A681BF2031CB2D816343EC /* Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -842,6 +1001,7 @@
 		};
 		63D011632A7A8FA6004D9CAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B460443C37CBBBE8444B92 /* Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -899,7 +1059,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -907,7 +1067,7 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */ = {
+		63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GottaGetSwifty/CodableWrappers.git";
 			requirement = {
@@ -915,7 +1075,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -923,7 +1083,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+		63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs.git";
 			requirement = {
@@ -931,7 +1091,7 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+		FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -944,32 +1104,32 @@
 /* Begin XCSwiftPackageProductDependency section */
 		6331E47B2A7AF08900EF230F /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = 6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
 			productName = Kingfisher;
 		};
 		63A953F32A7AAB4900D0BBFF /* CodableWrappers */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */;
+			package = 63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */;
 			productName = CodableWrappers;
 		};
 		63A954082A7AB9C500D0BBFF /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 		63D011862A7AA3EA004D9CAF /* OHHTTPStubs */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */;
 			productName = OHHTTPStubs;
 		};
 		63D011882A7AA3EA004D9CAF /* OHHTTPStubsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */;
 			productName = OHHTTPStubsSwift;
 		};
 		FA34468C2A7BB0350001F8AF /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			package = FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
 			productName = TinyConstraints;
 		};
 /* End XCSwiftPackageProductDependency section */

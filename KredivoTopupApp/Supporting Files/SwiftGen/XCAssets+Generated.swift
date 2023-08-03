@@ -33,16 +33,24 @@ internal enum Asset {
     internal static let grayE7E7E7 = ColorAsset(name: "gray_E7E7E7")
     internal static let grayEBEDFA = ColorAsset(name: "gray_EBEDFA")
     internal static let grayF9F9F9 = ColorAsset(name: "gray_F9F9F9")
+    internal static let green3ADA8A = ColorAsset(name: "green_3ADA8A")
+    internal static let greenD0FAE0 = ColorAsset(name: "green_D0FAE0")
+    internal static let orangeFFF1EA = ColorAsset(name: "orange_FFF1EA")
     internal static let primary = ColorAsset(name: "primary")
     internal static let secondary = ColorAsset(name: "secondary")
   }
   internal enum Icon {
     internal static let arrowLeft = ImageAsset(name: "arrow_left")
+    internal static let cancel = ImageAsset(name: "cancel")
+    internal static let characterHidden = ImageAsset(name: "character_hidden")
+    internal static let characterShown = ImageAsset(name: "character_shown")
+    internal static let checkmark = ImageAsset(name: "checkmark")
     internal static let chevronLeft = ImageAsset(name: "chevron_left")
     internal static let close = ImageAsset(name: "close")
+    internal static let disc = ImageAsset(name: "disc")
     internal static let help = ImageAsset(name: "help")
   }
-  internal enum Image {
+  internal enum Logo {
     internal static let telkomsel = ImageAsset(name: "telkomsel")
   }
 }
