@@ -21,13 +21,13 @@ struct BaseUrl {
 
 enum Endpoints {
     case pulsaItems
-    case promoItems
+    case voucherItems
     case paymentStatus
     
     public var url: String {
         switch self {
         case .pulsaItems: return "\(BaseUrl.url)/pulsa/items"
-        case .promoItems: return "\(BaseUrl.url)/promo/items"
+        case .voucherItems: return "\(BaseUrl.url)/voucher/items"
         case .paymentStatus: return "\(BaseUrl.url)/payment/status"
         }
     }

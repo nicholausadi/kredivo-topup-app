@@ -11,7 +11,7 @@ import TinyConstraints
 
 class PaymentStatusViewController: UIViewController {
     
-    static let string = "PaymentStatusViewController"
+    static let identifier = "PaymentStatusViewController"
 
     // Outlet Order Detail
     @IBOutlet weak var stackOrderDetail: UIStackView!
@@ -66,6 +66,18 @@ class PaymentStatusViewController: UIViewController {
         viewModel.fetchPaymentStatus(param: param)
     }
     
+    private func setupNavBack() {
+        navigationItem.hidesBackButton = true
+        let btnBack = UIBarButtonItem(image: UIImage(named: Asset.Icon.close.name), style: .plain, target: self, action: #selector(back))
+        navigationItem.leftBarButtonItem = btnBack
+    }
+    
+    @objc func back(sender: UIBarButtonItem) {
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    // MARK: View Render State
+    
     private func render(_ state: PaymentStatusViewModel.State) {
         switch state {
         case .isLoading:
@@ -90,16 +102,6 @@ class PaymentStatusViewController: UIViewController {
             // Add payment breakdown
             addPaymentBreakdown(list: trx.itemList, amount: trx.amount, type: trx.appliedPaymentType)
         }
-    }
-    
-    private func setupNavBack() {
-        navigationItem.hidesBackButton = true
-        let btnBack = UIBarButtonItem(image: UIImage(named: Asset.Icon.close.name), style: .plain, target: self, action: #selector(back))
-        navigationItem.leftBarButtonItem = btnBack
-    }
-    
-    @objc func back(sender: UIBarButtonItem) {
-        navigationController?.popToRootViewController(animated: true)
     }
     
     private func setupView() {

@@ -10,7 +10,7 @@ import Kingfisher
 
 class VoucherDetailViewController: UIViewController {
     
-    static let string = "VoucherDetailViewController"
+    static let identifier = "VoucherDetailViewController"
 
     // Outlet
     @IBOutlet weak var imageView: UIImageView!

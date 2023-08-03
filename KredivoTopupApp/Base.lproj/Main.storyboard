@@ -7,6 +7,7 @@
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBu-dL-r9B">
-                                <rect key="frame" x="130" y="431" width="154.5" height="34.5"/>
+                                <rect key="frame" x="129.5" y="430.5" width="155" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Goto Transaction"/>
                                 <connections>
@@ -27,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khF-W6-4ex">
-                                <rect key="frame" x="118.5" y="481.5" width="177" height="34.5"/>
+                                <rect key="frame" x="118.5" y="481.5" width="177" height="34"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Goto Voucher Detail"/>
                                 <connections>
@@ -50,20 +51,41 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="78.348214285714278"/>
         </scene>
-        <!--Voucher List View Controller-->
-        <scene sceneID="yoJ-ga-Ycx">
+        <!--Voucher List Collection View Controller-->
+        <scene sceneID="fOl-O4-4j7">
             <objects>
-                <viewController storyboardIdentifier="VoucherListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fVU-2Y-JQU" customClass="VoucherListViewController" customModule="KredivoTopupApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qL1-cZ-O0g">
+                <collectionViewController storyboardIdentifier="VoucherListCollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="twi-WH-sIe" customClass="VoucherListCollectionViewController" customModule="KredivoTopupApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Uia-YU-4hQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="8Xa-AX-ksm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sah-pO-QwF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iFk-yX-DLO">
+                            <size key="itemSize" width="237" height="133"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Cell" id="ynb-l0-AbC">
+                                <rect key="frame" x="88.5" y="0.0" width="237" height="133"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="beS-OG-9M4">
+                                    <rect key="frame" x="0.0" y="0.0" width="237" height="133"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" systemColor="systemMintColor"/>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="237" height="133"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="twi-WH-sIe" id="eSj-VB-B9S"/>
+                            <outlet property="delegate" destination="twi-WH-sIe" id="ahu-7G-dT0"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A2x-li-IuL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396" y="761"/>
+            <point key="canvasLocation" x="1398.5507246376812" y="770.75892857142856"/>
         </scene>
         <!--Voucher Detail View Controller-->
         <scene sceneID="eyd-gL-OAE">
@@ -230,11 +252,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0y-ow-jcw">
-                                <rect key="frame" x="114.5" y="431" width="185" height="34.5"/>
+                                <rect key="frame" x="114.5" y="430.5" width="185" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Goto Payment Status"/>
                                 <connections>
                                     <action selector="onClickedPayment:" destination="Ldy-OT-z2v" eventType="touchUpInside" id="7ba-FJ-KXX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqC-ow-bAs">
+                                <rect key="frame" x="126.5" y="481.5" width="161" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Goto Voucher List"/>
+                                <connections>
+                                    <action selector="onClickedVoucher:" destination="Ldy-OT-z2v" eventType="touchUpInside" id="Cop-CD-4Xd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -242,7 +272,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="d0y-ow-jcw" firstAttribute="centerY" secondItem="G5y-S2-4fU" secondAttribute="centerY" id="99w-sM-765"/>
+                            <constraint firstItem="hqC-ow-bAs" firstAttribute="centerX" secondItem="G5y-S2-4fU" secondAttribute="centerX" id="Mh4-O8-Bv0"/>
                             <constraint firstItem="d0y-ow-jcw" firstAttribute="centerX" secondItem="G5y-S2-4fU" secondAttribute="centerX" id="lyh-hn-UG3"/>
+                            <constraint firstItem="hqC-ow-bAs" firstAttribute="top" secondItem="d0y-ow-jcw" secondAttribute="bottom" constant="16" id="xuq-N4-NRj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -514,6 +546,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
