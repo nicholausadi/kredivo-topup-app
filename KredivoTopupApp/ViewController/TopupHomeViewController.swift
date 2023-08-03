@@ -16,7 +16,7 @@ import UIKit
 
 class TopupHomeViewController: UIViewController {
     
-    static let string = "TopupHomeViewController"
+    static let identifier = "TopupHomeViewController"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,13 +56,13 @@ class TopupHomeViewController: UIViewController {
     
     // Go to Transaction
     func goToTransaction() {
-        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: TransactionViewController.string) as? TransactionViewController else { return }
+        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: TransactionViewController.identifier) as? TransactionViewController else { return }
         navigationController?.pushViewController(vc, animated: true)
     }
     
     // Go to Voucher Detail
     func goToVoucherDetail(voucher: VoucherItem) {
-        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: VoucherDetailViewController.string) as? VoucherDetailViewController else { return }
+        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: VoucherDetailViewController.identifier) as? VoucherDetailViewController else { return }
         
         vc.voucher = voucher
         navigationController?.pushViewController(vc, animated: true)

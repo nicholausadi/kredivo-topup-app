@@ -9,19 +9,28 @@ import UIKit
 import OHHTTPStubs
 import OHHTTPStubsSwift
 
-// TODO: 1. Add promos items collection view
-// TODO: 2. Add transaction collection view
-// TODO: 3. Add home collection view
-
+// TODO: 1. Add transaction collection view
+// TODO: 2. Add home collection view
+//
 // Less priority:
 // TODO: Remove all deinit
+//
 // TODO: VoucherDetail - arrow left kurang gede
+// TODO: VoucherList - chevron kurang gede
 // TODO: PaymentState - close kurang gede
 // TODO: PaymentState - telkomsel kurang kecil
+//
+// TODO: VoucherList - Add failed state
+// TODO: VoucherList - Add spinner in loading state
+// TODO: VoucherList - need dynamic height?
+// TODO: VoucherList - Send voucher code to previous screen.
+//
 // TODO: PaymentState - Add failed state
 // TODO: PaymentState - Add spinner in loading state
+//
 // TODO: Add transition in kingfisher
 // TODO: Add network manager?
+// TODO: Add api failed handling?
 // TODO: Add string localized
 
 @main
@@ -40,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Stub response voucher items.
-        stub(condition: pathEndsWith("/promo/items")) { _ in
+        stub(condition: pathEndsWith("/voucher/items")) { _ in
             let stubPath = OHPathForFile("voucher_items_response.json", type(of: self))
             return fixture(filePath: stubPath!, status: 200, headers: ["Content-Type": "application/json"])
         }

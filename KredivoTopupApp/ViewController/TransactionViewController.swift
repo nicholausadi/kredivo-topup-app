@@ -7,7 +7,6 @@
 
 import UIKit
 
-// TODO: goto voucher list
 // TODO: after input pin, click bayar goto screen payment status
 // TODO: show error message if pin not filled
 // TODO: voucher state selected, not selected, clear button
@@ -16,7 +15,7 @@ import UIKit
 
 class TransactionViewController: UIViewController {
     
-    static let string = "TransactionViewController"
+    static let identifier = "TransactionViewController"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,23 +25,23 @@ class TransactionViewController: UIViewController {
         setupNavbar()
     }
     
-    @IBAction func onClickedVoucher(_ sender: Any) {
-        goToVoucherList()
-    }
-    
     @IBAction func onClickedPayment(_ sender: Any) {
         goToPaymentStatus()
     }
     
+    @IBAction func onClickedVoucher(_ sender: Any) {
+        goToVoucherList()
+    }
+    
     // Go to Voucher List
     func goToVoucherList() {
-        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: VoucherListViewController.string) as? VoucherListViewController else { return }
+        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: VoucherListCollectionViewController.identifier) as? VoucherListCollectionViewController else { return }
         navigationController?.pushViewController(vc, animated: true)
     }
     
     // Go to Payment Status
     func goToPaymentStatus() {
-        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: PaymentStatusViewController.string) as? PaymentStatusViewController else { return }
+        guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: PaymentStatusViewController.identifier) as? PaymentStatusViewController else { return }
         
         // TODO: remove this dummy!
         vc.phoneNumber = "0812 3400 0001"

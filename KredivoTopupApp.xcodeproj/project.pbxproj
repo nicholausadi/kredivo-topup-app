@@ -34,7 +34,6 @@
 		63D0114C2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0114B2A7A8FA6004D9CAF /* KredivoTopupAppTests.swift */; };
 		63D011562A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011552A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift */; };
 		63D011582A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011572A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift */; };
-		63D0116C2A7A92BC004D9CAF /* VoucherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011672A7A92BC004D9CAF /* VoucherListViewController.swift */; };
 		63D0116E2A7A92BC004D9CAF /* PaymentStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011692A7A92BC004D9CAF /* PaymentStatusViewController.swift */; };
 		63D0116F2A7A92BC004D9CAF /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0116A2A7A92BC004D9CAF /* TransactionViewController.swift */; };
 		63D011702A7A92BC004D9CAF /* VoucherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0116B2A7A92BC004D9CAF /* VoucherDetailViewController.swift */; };
@@ -45,6 +44,10 @@
 		63D011842A7A9C73004D9CAF /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */; };
 		63D011872A7AA3EA004D9CAF /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011862A7AA3EA004D9CAF /* OHHTTPStubs */; };
 		63D011892A7AA3EA004D9CAF /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011882A7AA3EA004D9CAF /* OHHTTPStubsSwift */; };
+		FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */; };
+		FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */; };
+		FA329A522A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A502A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift */; };
+		FA329A532A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA329A512A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib */; };
 		FA34467B2A7B83960001F8AF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34467A2A7B83960001F8AF /* Endpoints.swift */; };
 		FA34467D2A7B87FF0001F8AF /* PaymentStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34467C2A7B87FF0001F8AF /* PaymentStatusViewModel.swift */; };
 		FA3446852A7BA11D0001F8AF /* Extension+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3446842A7BA11D0001F8AF /* Extension+Decodable.swift */; };
@@ -99,7 +102,6 @@
 		63D011512A7A8FA6004D9CAF /* KredivoTopupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KredivoTopupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D011552A7A8FA6004D9CAF /* KredivoTopupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredivoTopupAppUITests.swift; sourceTree = "<group>"; };
 		63D011572A7A8FA6004D9CAF /* KredivoTopupAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredivoTopupAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		63D011672A7A92BC004D9CAF /* VoucherListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherListViewController.swift; sourceTree = "<group>"; };
 		63D011692A7A92BC004D9CAF /* PaymentStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentStatusViewController.swift; sourceTree = "<group>"; };
 		63D0116A2A7A92BC004D9CAF /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		63D0116B2A7A92BC004D9CAF /* VoucherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherDetailViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,10 @@
 		63D0117C2A7A9770004D9CAF /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 		63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupViewModel.swift; sourceTree = "<group>"; };
 		63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewModel.swift; sourceTree = "<group>"; };
+		FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListCollectionViewController.swift; sourceTree = "<group>"; };
+		FA329A502A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA329A512A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoucherItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		FA34467A2A7B83960001F8AF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		FA34467C2A7B87FF0001F8AF /* PaymentStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatusViewModel.swift; sourceTree = "<group>"; };
 		FA3446842A7BA11D0001F8AF /* Extension+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Decodable.swift"; sourceTree = "<group>"; };
@@ -265,7 +271,7 @@
 			children = (
 				63D0117A2A7A9740004D9CAF /* TopupHomeViewController.swift */,
 				63D0116A2A7A92BC004D9CAF /* TransactionViewController.swift */,
-				63D011672A7A92BC004D9CAF /* VoucherListViewController.swift */,
+				FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */,
 				63D0116B2A7A92BC004D9CAF /* VoucherDetailViewController.swift */,
 				63D011692A7A92BC004D9CAF /* PaymentStatusViewController.swift */,
 			);
@@ -314,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */,
+				FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */,
 				FA34467C2A7B87FF0001F8AF /* PaymentStatusViewModel.swift */,
 			);
 			path = ViewModels;
@@ -330,10 +337,20 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		FA329A4F2A7BC132005DFEC5 /* VoucherItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA329A502A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift */,
+				FA329A512A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib */,
+			);
+			path = VoucherItemCell;
+			sourceTree = "<group>";
+		};
 		FA3446882A7BAF1E0001F8AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				FA3446892A7BAF2A0001F8AF /* DashLineView.swift */,
+				FA329A4F2A7BC132005DFEC5 /* VoucherItemCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -463,6 +480,7 @@
 				63D0113E2A7A8FA6004D9CAF /* Assets.xcassets in Resources */,
 				6358CB2A2A7AA51F00847C00 /* status_page_response.json in Resources */,
 				6358CB2C2A7AA51F00847C00 /* pulsa_items_response.json in Resources */,
+				FA329A532A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib in Resources */,
 				63D0113C2A7A8FA5004D9CAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,12 +537,14 @@
 				63D011352A7A8FA5004D9CAF /* AppDelegate.swift in Sources */,
 				63A954022A7AB73B00D0BBFF /* MerchantDetail.swift in Sources */,
 				63D0116F2A7A92BC004D9CAF /* TransactionViewController.swift in Sources */,
-				63D0116C2A7A92BC004D9CAF /* VoucherListViewController.swift in Sources */,
 				63D011842A7A9C73004D9CAF /* Extension+ViewController.swift in Sources */,
 				6331E4832A7B135800EF230F /* PaddingLabel.swift in Sources */,
 				FA34467D2A7B87FF0001F8AF /* PaymentStatusViewModel.swift in Sources */,
 				FA3446852A7BA11D0001F8AF /* Extension+Decodable.swift in Sources */,
+				FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */,
+				FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */,
 				63A9540E2A7ABB5200D0BBFF /* PaymentStatusParams.swift in Sources */,
+				FA329A522A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift in Sources */,
 				63A953F12A7AAAF500D0BBFF /* VoucherItem.swift in Sources */,
 				63D0117B2A7A9740004D9CAF /* TopupHomeViewController.swift in Sources */,
 				6331E4812A7AF3D700EF230F /* ViewUtils.swift in Sources */,
