@@ -42,12 +42,27 @@
 		63D011732A7A932E004D9CAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011722A7A932E004D9CAF /* Constants.swift */; };
 		63D0117B2A7A9740004D9CAF /* TopupHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0117A2A7A9740004D9CAF /* TopupHomeViewController.swift */; };
 		63D0117D2A7A9770004D9CAF /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0117C2A7A9770004D9CAF /* XCAssets+Generated.swift */; };
-		63D011812A7A9B5C004D9CAF /* TopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */; };
 		63D011842A7A9C73004D9CAF /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */; };
 		63D011872A7AA3EA004D9CAF /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011862A7AA3EA004D9CAF /* OHHTTPStubs */; };
 		63D011892A7AA3EA004D9CAF /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63D011882A7AA3EA004D9CAF /* OHHTTPStubsSwift */; };
 		68F1E3F596A4DB2D61A961D2 /* Pods_KredivoTopupApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89C452E665E0355C6CC00F /* Pods_KredivoTopupApp.framework */; };
 		88E84BE136BEBE49817FFB59 /* Pods_KredivoTopupAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92FEE4D15549D81B420E4DE /* Pods_KredivoTopupAppTests.framework */; };
+		B534384B2A7CE17800AA627F /* PulsaItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53438492A7CE17800AA627F /* PulsaItemCollectionViewCell.swift */; };
+		B534384C2A7CE17800AA627F /* PulsaItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B534384A2A7CE17800AA627F /* PulsaItemCollectionViewCell.xib */; };
+		B534384F2A7CF25600AA627F /* SkyFloatingLabelTextField in Frameworks */ = {isa = PBXBuildFile; productRef = B534384E2A7CF25600AA627F /* SkyFloatingLabelTextField */; };
+		B53674FF2A7CBBF8000F7D22 /* PagedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53674FE2A7CBBF8000F7D22 /* PagedView.swift */; };
+		B53675022A7CBF7A000F7D22 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675012A7CBF7A000F7D22 /* PageCollectionViewCell.swift */; };
+		B53675042A7CBFE1000F7D22 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675032A7CBFE1000F7D22 /* TabbedView.swift */; };
+		B53675062A7CC022000F7D22 /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675052A7CC022000F7D22 /* TabCollectionViewCell.swift */; };
+		B53675082A7CC04F000F7D22 /* ViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675072A7CC04F000F7D22 /* ViewPager.swift */; };
+		B536750A2A7CC174000F7D22 /* AppTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675092A7CC174000F7D22 /* AppTabItemView.swift */; };
+		B536750D2A7CC83D000F7D22 /* DataPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536750C2A7CC83D000F7D22 /* DataPackageView.swift */; };
+		B536750F2A7CC855000F7D22 /* DataPackageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B536750E2A7CC855000F7D22 /* DataPackageView.xib */; };
+		B53675112A7CCBD0000F7D22 /* TopupHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675102A7CCBD0000F7D22 /* TopupHomeViewModel.swift */; };
+		B53675132A7CCE2A000F7D22 /* PulsaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675122A7CCE2A000F7D22 /* PulsaView.swift */; };
+		B53675152A7CCE3C000F7D22 /* PulsaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53675142A7CCE3C000F7D22 /* PulsaView.xib */; };
+		B53675192A7CD21D000F7D22 /* PromoItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53675172A7CD21D000F7D22 /* PromoItemCollectionViewCell.swift */; };
+		B536751A2A7CD21D000F7D22 /* PromoItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53675182A7CD21D000F7D22 /* PromoItemCollectionViewCell.xib */; };
 		C63A077C7470C4894210975B /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E6A4EA20CC0A125FD3C654 /* Pods_KredivoTopupApp_KredivoTopupAppUITests.framework */; };
 		FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */; };
 		FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA329A4D2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift */; };
@@ -120,10 +135,24 @@
 		63D011722A7A932E004D9CAF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		63D0117A2A7A9740004D9CAF /* TopupHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopupHomeViewController.swift; sourceTree = "<group>"; };
 		63D0117C2A7A9770004D9CAF /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
-		63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupViewModel.swift; sourceTree = "<group>"; };
 		63D011832A7A9C73004D9CAF /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
 		81B460443C37CBBBE8444B92 /* Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83A681BF2031CB2D816343EC /* Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KredivoTopupApp-KredivoTopupAppUITests/Pods-KredivoTopupApp-KredivoTopupAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B53438492A7CE17800AA627F /* PulsaItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B534384A2A7CE17800AA627F /* PulsaItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PulsaItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		B53674FE2A7CBBF8000F7D22 /* PagedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedView.swift; sourceTree = "<group>"; };
+		B53675012A7CBF7A000F7D22 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B53675032A7CBFE1000F7D22 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		B53675052A7CC022000F7D22 /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
+		B53675072A7CC04F000F7D22 /* ViewPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPager.swift; sourceTree = "<group>"; };
+		B53675092A7CC174000F7D22 /* AppTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabItemView.swift; sourceTree = "<group>"; };
+		B536750C2A7CC83D000F7D22 /* DataPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPackageView.swift; sourceTree = "<group>"; };
+		B536750E2A7CC855000F7D22 /* DataPackageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataPackageView.xib; sourceTree = "<group>"; };
+		B53675102A7CCBD0000F7D22 /* TopupHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupHomeViewModel.swift; sourceTree = "<group>"; };
+		B53675122A7CCE2A000F7D22 /* PulsaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaView.swift; sourceTree = "<group>"; };
+		B53675142A7CCE3C000F7D22 /* PulsaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PulsaView.xib; sourceTree = "<group>"; };
+		B53675172A7CD21D000F7D22 /* PromoItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B53675182A7CD21D000F7D22 /* PromoItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		C92FEE4D15549D81B420E4DE /* Pods_KredivoTopupAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KredivoTopupAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB89C452E665E0355C6CC00F /* Pods_KredivoTopupApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KredivoTopupApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewModel.swift; sourceTree = "<group>"; };
@@ -147,6 +176,7 @@
 				63D011892A7AA3EA004D9CAF /* OHHTTPStubsSwift in Frameworks */,
 				63A953F42A7AAB4900D0BBFF /* CodableWrappers in Frameworks */,
 				6331E47C2A7AF08900EF230F /* Kingfisher in Frameworks */,
+				B534384F2A7CF25600AA627F /* SkyFloatingLabelTextField in Frameworks */,
 				FA34468D2A7BB0350001F8AF /* TinyConstraints in Frameworks */,
 				68F1E3F596A4DB2D61A961D2 /* Pods_KredivoTopupApp.framework in Frameworks */,
 			);
@@ -181,7 +211,6 @@
 				187F9968DDBD73AE6BF39409 /* Pods-KredivoTopupAppTests.debug.xcconfig */,
 				0B3C662DE8B2B7FB76E91A13 /* Pods-KredivoTopupAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -364,7 +393,7 @@
 		63D0117F2A7A9B47004D9CAF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				63D011802A7A9B5C004D9CAF /* TopupViewModel.swift */,
+				B53675102A7CCBD0000F7D22 /* TopupHomeViewModel.swift */,
 				FA329A4B2A7BBC13005DFEC5 /* VoucherListViewModel.swift */,
 				FA34467C2A7B87FF0001F8AF /* PaymentStatusViewModel.swift */,
 			);
@@ -384,6 +413,48 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		B53438482A7CE16200AA627F /* PulsaItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				B53438492A7CE17800AA627F /* PulsaItemCollectionViewCell.swift */,
+				B534384A2A7CE17800AA627F /* PulsaItemCollectionViewCell.xib */,
+			);
+			path = PulsaItemCell;
+			sourceTree = "<group>";
+		};
+		B53675002A7CBE93000F7D22 /* ViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				B53675072A7CC04F000F7D22 /* ViewPager.swift */,
+				B53675032A7CBFE1000F7D22 /* TabbedView.swift */,
+				B53674FE2A7CBBF8000F7D22 /* PagedView.swift */,
+				B53675052A7CC022000F7D22 /* TabCollectionViewCell.swift */,
+				B53675012A7CBF7A000F7D22 /* PageCollectionViewCell.swift */,
+				B53675092A7CC174000F7D22 /* AppTabItemView.swift */,
+			);
+			path = ViewPager;
+			sourceTree = "<group>";
+		};
+		B536750B2A7CC811000F7D22 /* TopupViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				B53675122A7CCE2A000F7D22 /* PulsaView.swift */,
+				B53675142A7CCE3C000F7D22 /* PulsaView.xib */,
+				B536750C2A7CC83D000F7D22 /* DataPackageView.swift */,
+				B536750E2A7CC855000F7D22 /* DataPackageView.xib */,
+			);
+			path = TopupViewPager;
+			sourceTree = "<group>";
+		};
+		B53675162A7CD1FD000F7D22 /* PromoItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				B53675172A7CD21D000F7D22 /* PromoItemCollectionViewCell.swift */,
+				B53675182A7CD21D000F7D22 /* PromoItemCollectionViewCell.xib */,
+			);
+			path = PromoItemCell;
+			sourceTree = "<group>";
+		};
 		FA329A4F2A7BC132005DFEC5 /* VoucherItemCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +468,10 @@
 			isa = PBXGroup;
 			children = (
 				FA3446892A7BAF2A0001F8AF /* DashLineView.swift */,
+				B536750B2A7CC811000F7D22 /* TopupViewPager */,
+				B53675002A7CBE93000F7D22 /* ViewPager */,
+				B53438482A7CE16200AA627F /* PulsaItemCell */,
+				B53675162A7CD1FD000F7D22 /* PromoItemCell */,
 				FA329A4F2A7BC132005DFEC5 /* VoucherItemCell */,
 			);
 			path = Views;
@@ -428,6 +503,7 @@
 				63A954082A7AB9C500D0BBFF /* Alamofire */,
 				6331E47B2A7AF08900EF230F /* Kingfisher */,
 				FA34468C2A7BB0350001F8AF /* TinyConstraints */,
+				B534384E2A7CF25600AA627F /* SkyFloatingLabelTextField */,
 			);
 			productName = KredivoTopupApp;
 			productReference = 63D011312A7A8FA5004D9CAF /* KredivoTopupApp.app */;
@@ -505,11 +581,12 @@
 			);
 			mainGroup = 63D011282A7A8FA5004D9CAF;
 			packageReferences = (
-				63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */,
-				63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */,
-				63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
-				FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
+				63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+				63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */,
+				63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				B534384D2A7CF25600AA627F /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */,
 			);
 			productRefGroup = 63D011322A7A8FA5004D9CAF /* Products */;
 			projectDirPath = "";
@@ -531,9 +608,13 @@
 				63D011412A7A8FA6004D9CAF /* LaunchScreen.storyboard in Resources */,
 				63D0113E2A7A8FA6004D9CAF /* Assets.xcassets in Resources */,
 				6358CB2A2A7AA51F00847C00 /* status_page_response.json in Resources */,
+				B53675152A7CCE3C000F7D22 /* PulsaView.xib in Resources */,
 				6358CB2C2A7AA51F00847C00 /* pulsa_items_response.json in Resources */,
+				B536750F2A7CC855000F7D22 /* DataPackageView.xib in Resources */,
+				B534384C2A7CE17800AA627F /* PulsaItemCollectionViewCell.xib in Resources */,
 				FA329A532A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.xib in Resources */,
 				63D0113C2A7A8FA5004D9CAF /* Main.storyboard in Resources */,
+				B536751A2A7CD21D000F7D22 /* PromoItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,10 +761,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A953F62A7AAF7200D0BBFF /* PulsaItemsResp.swift in Sources */,
+				B536750D2A7CC83D000F7D22 /* DataPackageView.swift in Sources */,
 				63A954002A7AB43200D0BBFF /* TransactionItem.swift in Sources */,
+				B53675112A7CCBD0000F7D22 /* TopupHomeViewModel.swift in Sources */,
 				FA34467B2A7B83960001F8AF /* Endpoints.swift in Sources */,
+				B53675132A7CCE2A000F7D22 /* PulsaView.swift in Sources */,
 				63A953F82A7AB06700D0BBFF /* VoucherItemsResp.swift in Sources */,
+				B53675042A7CBFE1000F7D22 /* TabbedView.swift in Sources */,
 				FA34468A2A7BAF2A0001F8AF /* DashLineView.swift in Sources */,
+				B53675082A7CC04F000F7D22 /* ViewPager.swift in Sources */,
+				B53675062A7CC022000F7D22 /* TabCollectionViewCell.swift in Sources */,
 				63D0117D2A7A9770004D9CAF /* XCAssets+Generated.swift in Sources */,
 				6331E47E2A7AF1ED00EF230F /* Extension+Date.swift in Sources */,
 				63D011352A7A8FA5004D9CAF /* AppDelegate.swift in Sources */,
@@ -696,14 +783,18 @@
 				6311CFF52A7C04CE00B89B93 /* Extension+UIStackView.swift in Sources */,
 				FA3446852A7BA11D0001F8AF /* Extension+Decodable.swift in Sources */,
 				FA329A4E2A7BBE70005DFEC5 /* VoucherListCollectionViewController.swift in Sources */,
+				B536750A2A7CC174000F7D22 /* AppTabItemView.swift in Sources */,
+				B534384B2A7CE17800AA627F /* PulsaItemCollectionViewCell.swift in Sources */,
 				FA329A4C2A7BBC13005DFEC5 /* VoucherListViewModel.swift in Sources */,
 				63A9540E2A7ABB5200D0BBFF /* PaymentStatusParams.swift in Sources */,
 				FA329A522A7BC14E005DFEC5 /* VoucherItemCollectionViewCell.swift in Sources */,
+				B53674FF2A7CBBF8000F7D22 /* PagedView.swift in Sources */,
 				63A953F12A7AAAF500D0BBFF /* VoucherItem.swift in Sources */,
+				B53675022A7CBF7A000F7D22 /* PageCollectionViewCell.swift in Sources */,
 				63D0117B2A7A9740004D9CAF /* TopupHomeViewController.swift in Sources */,
 				6331E4812A7AF3D700EF230F /* ViewUtils.swift in Sources */,
-				63D011812A7A9B5C004D9CAF /* TopupViewModel.swift in Sources */,
 				63D0116E2A7A92BC004D9CAF /* PaymentStatusViewController.swift in Sources */,
+				B53675192A7CD21D000F7D22 /* PromoItemCollectionViewCell.swift in Sources */,
 				63A9540C2A7ABAD300D0BBFF /* PulsaItemsParams.swift in Sources */,
 				63A953FE2A7AB15900D0BBFF /* TransactionContext.swift in Sources */,
 				FA3446872A7BA4360001F8AF /* Extension+UIImageView.swift in Sources */,
@@ -1059,7 +1150,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+		6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -1067,7 +1158,7 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */ = {
+		63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GottaGetSwifty/CodableWrappers.git";
 			requirement = {
@@ -1075,7 +1166,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1083,7 +1174,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */ = {
+		63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs.git";
 			requirement = {
@@ -1091,7 +1182,15 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
+		B534384D2A7CF25600AA627F /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Skyscanner/SkyFloatingLabelTextField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -1104,32 +1203,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		6331E47B2A7AF08900EF230F /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			package = 6331E47A2A7AF08900EF230F /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 		63A953F32A7AAB4900D0BBFF /* CodableWrappers */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers.git" */;
+			package = 63A953F22A7AAB4900D0BBFF /* XCRemoteSwiftPackageReference "CodableWrappers" */;
 			productName = CodableWrappers;
 		};
 		63A954082A7AB9C500D0BBFF /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = 63A954072A7AB9C500D0BBFF /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		63D011862A7AA3EA004D9CAF /* OHHTTPStubs */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */;
+			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
 			productName = OHHTTPStubs;
 		};
 		63D011882A7AA3EA004D9CAF /* OHHTTPStubsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs.git" */;
+			package = 63D011852A7AA3EA004D9CAF /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
 			productName = OHHTTPStubsSwift;
+		};
+		B534384E2A7CF25600AA627F /* SkyFloatingLabelTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B534384D2A7CF25600AA627F /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */;
+			productName = SkyFloatingLabelTextField;
 		};
 		FA34468C2A7BB0350001F8AF /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
+			package = FA34468B2A7BB0350001F8AF /* XCRemoteSwiftPackageReference "TinyConstraints" */;
 			productName = TinyConstraints;
 		};
 /* End XCSwiftPackageProductDependency section */

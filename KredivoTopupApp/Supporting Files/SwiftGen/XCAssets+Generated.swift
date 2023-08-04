@@ -53,6 +53,7 @@ internal enum Asset {
   internal enum Logo {
     internal static let telkomsel = ImageAsset(name: "telkomsel")
   }
+  internal static let contacts = ImageAsset(name: "contacts")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

@@ -174,8 +174,4 @@ class VoucherDetailViewController: UIViewController {
         return paragraphStyle
     }
     
-    deinit {
-        print(">>> VoucherDetailViewController deinit")
-    }
-    
 }

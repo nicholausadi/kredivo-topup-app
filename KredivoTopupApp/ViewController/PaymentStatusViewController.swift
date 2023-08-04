@@ -306,8 +306,4 @@ class PaymentStatusViewController: UIViewController {
         navigationController?.popToRootViewController(animated: true)
     }
     
-    deinit {
-        print(">>> PaymentStatusViewController deinit")
-    }
-    
 }

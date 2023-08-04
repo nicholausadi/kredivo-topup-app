@@ -52,7 +52,7 @@ class TransactionViewController: UIViewController {
     @IBOutlet weak var containerBtnPay: UIView!
     @IBOutlet weak var btnPay: UIButton!
     
-    var pinTextfield: MDCOutlinedTextField?
+    weak var pinTextfield: MDCOutlinedTextField?
     
     var phoneNumber: String = "0857 6999 9999 9"
     var product: PulsaItem?
@@ -354,10 +354,6 @@ class TransactionViewController: UIViewController {
     
     @IBAction func onClickedRemoveVoucher(_ sender: Any) {
         voucherCode = nil
-    }
-    
-    deinit {
-        print(">>> TransactionViewController deinit")
     }
 
 }

@@ -6,17 +6,37 @@
 //
 
 import UIKit
-
-// TODO: call api voucher items.
-// TODO: call api pulsa items, after 4 digits phone number.
-// TODO: click price button -> goto transaction screen, send phone number
-// TODO: click promo items -> goto promo detail screen, send promo id
-// TODO: click get contact
-// TODO: promo card width 80% screen, aspect ratio 2:1
+import Combine
 
 class TopupHomeViewController: UIViewController {
     
     static let identifier = "TopupHomeViewController"
+    
+    let view1 = PulsaView()
+    let view2 = DataPackageView()
+    
+    lazy var viewPager: ViewPager = {
+        let viewPager = ViewPager(
+            tabSizeConfiguration: .fillEqually(height: 60, spacing: 0)
+        )
+        
+        viewPager.tabbedView.tabs = [
+            AppTabItemView(title: "Pulsa"),
+            AppTabItemView(title: "Data Package"),
+        ]
+        viewPager.pagedView.pages = [
+            view1,
+            view2
+        ]
+        
+        viewPager.translatesAutoresizingMaskIntoConstraints = false
+        return viewPager
+    }()
+    
+    // ViewModel
+    private let viewModel: TopupHomeViewModel = TopupHomeViewModel()
+    private var cancelPulsa: AnyCancellable?
+    private var cancelPromo: AnyCancellable?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,43 +45,29 @@ class TopupHomeViewController: UIViewController {
         navigationItem.title = "Top Up"
         setupNavbar()
         
-        view.backgroundColor = Asset.Color.grayEBEDFA.color
+        // Add ViewPager
+        view.addSubview(viewPager)
+        viewPager.edgesToSuperview(excluding: .bottom, usingSafeArea: true)
+        viewPager.bottomToSuperview(usingSafeArea: false)
+        
+        view1.delegate = self
+        
+        // Observe array pulsa in VM.
+        cancelPulsa = viewModel.$pulsa.sink { [weak self] pulsa in
+            self?.view1.pulsa = pulsa
+        }
+        
+        // Observe array promos in VM.
+        cancelPromo = viewModel.$promos.sink { [weak self] promos in
+            self?.view1.promos = promos
+        }
     }
     
-    // TODO: Remove this!
-    @IBAction func onClickedTransaction(_ sender: Any) {
-        let pulsa = PulsaItem(
-            productCode: "Fw22lyO0",
-            billType: "mobile",
-            label: "XL Rp 10.000",
-            phoneOperator: "xl",
-            nominal: "10000",
-            desc: "",
-            sequence: 1,
-            price: 12735.0)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
-        goToTransaction(product: pulsa)
-    }
-    
-    // TODO: Remove this!
-    @IBAction func onClickedVoucherDetail(_ sender: Any) {
-        let voucher = VoucherItem(
-            name: "Discount 20% at Kedai Hape Original, Mall Kota Kasablanka",
-            number: 4,
-            percentage: 10,
-            iterator: 0,
-            imageUrl: "https://placehold.co/1000x400/239CEC/FFFFFF/png",
-            minTransactionAmount: 50000,
-            endDate: "1548867600000",
-            id: 4111,
-            termsAndCondition: "Promo berlaku untuk transaksi yang dilakukan diaplikasi terbaru Bukalapak.\nGunakan kode BIRTHDAY9 untuk dapatkan cashback sebesar 3%.\nPromo hanya berlaku untuk transaksi yang menggunakan metode pengiriman J&T Express dan Ninja Xpress (REG dan FAST).\nSetiap pengguna bisa menggunakan promo sebanyak 1 (satu) kali per hari dan maksimal 2 (dua) kali selama periode Promo.\nPromo bisa digunakan untuk belanja produk kategori apa saja yang ada di Bukalapak, kecuali kategori tiket dan voucher, produk virtual (pulsa, paket data, voucher game, listrik prabayar & pascabayar, tiket event, tiket pesawat, tiket kereta, pembayaran zakat online, pembayaran tagihan listrik, air PDAM, dan BPJS) dan produk keuangan (BukaEmas dan BukaReksa).",
-            howToUse: "text",
-            usageCount: 2,
-            startDate: "1547053200000",
-            maxDiscount: 20000,
-            voucherCode: "BIRTHDAY9")
-        
-        goToVoucherDetail(voucher: voucher)
+        // Fetch promo at start
+        viewModel.fetchPromos()
     }
     
     // Go to Transaction
@@ -74,14 +80,27 @@ class TopupHomeViewController: UIViewController {
     }
     
     // Go to Voucher Detail
-    func goToVoucherDetail(voucher: VoucherItem) {
+    func goToVoucherDetail(promo: VoucherItem) {
         guard let vc = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: VoucherDetailViewController.identifier) as? VoucherDetailViewController else { return }
         
-        vc.voucher = voucher
+        vc.voucher = promo
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    deinit {
-        print(">>> TopupHomeViewController deinit")
+}
+
+extension TopupHomeViewController: PulsaViewDelegate {
+    
+    func textFieldDidChange(text: String) {
+        viewModel.fetchPulsa(phoneNumber: text)
     }
+    
+    func onClickedPulsa(pulsa: PulsaItem) {
+        goToTransaction(product: pulsa)
+    }
+    
+    func onClickedPromo(promo: VoucherItem) {
+        goToVoucherDetail(promo: promo)
+    }
+    
 }

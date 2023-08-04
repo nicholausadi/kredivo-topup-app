@@ -9,19 +9,6 @@ import UIKit
 import OHHTTPStubs
 import OHHTTPStubsSwift
 
-// TODO: 1. Add home collection view
-//
-// Less priority:
-// TODO: Remove all deinit
-//
-// TODO: VoucherDetail - arrow left kurang gede
-// TODO: VoucherList - chevron kurang gede
-// TODO: PaymentState - close kurang gede
-// TODO: PaymentState - telkomsel kurang kecil
-//
-// TODO: Add network manager?
-// TODO: Add api failed handling?
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
