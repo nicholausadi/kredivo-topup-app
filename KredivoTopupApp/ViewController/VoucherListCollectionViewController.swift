@@ -102,10 +102,6 @@ class VoucherListCollectionViewController: UICollectionViewController {
         
         return cell
     }
-    
-    deinit {
-        print(">>> VoucherListViewController deinit")
-    }
 
 }
 
